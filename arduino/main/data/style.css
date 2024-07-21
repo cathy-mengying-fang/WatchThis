@@ -1,0 +1,30 @@
+html {
+  font-family: Helvetica;
+  display: inline-block;
+  margin: 10px auto;
+  text-align: center;
+  
+}
+
+h1{
+  color: #0F3376;
+  padding: 2vh;
+}
+
+input{
+  font-size: 15px;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 80%;
+}
+
+input[type=submit]{
+  background-color: #0F3376;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100px;
+}

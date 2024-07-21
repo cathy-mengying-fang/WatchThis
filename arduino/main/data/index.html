@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>ESP32 Web Server</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="data:,">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <h1>Watch This</h1>
+  <p>Current prompt: <span id="currentString">%current_prompt%</span></p>
+  <form action="/prompt" method="GET">
+    <label for="userInput">Enter Prompt (under 50 characters):</label>
+    <input type="text" id="text" name="text">
+    <input type="submit" value="Submit">
+  </form>
+</body>
+</html>
